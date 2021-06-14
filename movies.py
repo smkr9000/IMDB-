@@ -1,3 +1,5 @@
+#!/usr/bin/env python 
+
 from rotten_tomatoes_scraper.rt_scraper import MovieScraper
 
 movie_name = input("Enter_movie name: ")
