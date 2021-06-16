@@ -7,7 +7,7 @@ IMDB
 -> In the Dockerfile i pulled the Python 3 base image form the Dockerhub
 -> Set the working directory to /usr/loacl/bin. 
 -> After that copied the files into the direcrtory.
--> Finally by using the **CMD** and **ENTRYPOINT** we are running the **movies.py** script
+-> Finally by using the **RUN**,**CMD** and **ENTRYPOINT** we are running the **movies.py** script
 -> After creating the DOCKERFILE and movies.py now we will try to build the image by using the following command.
 	**sudo docker build IMDB- .**
 -> Verify the image by below command.
